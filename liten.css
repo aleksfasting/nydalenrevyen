@@ -1,0 +1,67 @@
+@media screen and (max-width: 950px) {
+    /* #nav */
+    #nav>ul li {
+        margin: 25px 15px;
+    }
+    #nav>ul li a {
+        font-size: 150%;
+    }
+    /* adjustment */
+    #nav{
+        flex-basis: 87.5%;
+    }
+    #logo{
+        flex-basis: 12.5%;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    /* #nav */
+    #nav > ul > li {
+        margin: 25px 15px;
+    }
+    #nav > ul > li > a {
+        font-size: 130%;
+    }
+    /* adjustment */
+    #nav{
+        flex-basis: 85%;
+    }
+    #logo{
+        flex-basis: 15%;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    /* #nav */
+    #nav > ul > li {
+        margin: 25px 10px;
+    }
+    #nav > ul > li > a {
+        font-size: 115%;
+    }
+    /* adjustment */
+    #nav{
+        flex-basis: 82.5%;
+    }
+    #logo{
+        flex-basis: 17.5%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    /* #nav */
+    #nav > ul > li {
+        margin: 25px 5px;
+    }
+    #nav > ul > li > a {
+        font-size: 100%;
+    }
+    /* adjustment */
+    #nav{
+        flex-basis: 80%;
+    }
+    #logo{
+        flex-basis: 20%;
+    }
+}
