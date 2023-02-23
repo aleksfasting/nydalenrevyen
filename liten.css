@@ -36,6 +36,12 @@
     #top > h1{
         font-size: 30px;
     }
+    div.infoSjefer > h2{
+        font-size: 210%;
+    }
+    div.infoSjefer > ul{
+        font-size: 130%;
+    }
 }
 
 @media screen and (max-width: 740px) {
@@ -78,5 +84,11 @@
     }
     #top > h1{
         font-size: 20px;
+    }
+    div.infoSjefer > h2{
+        font-size: 180%;
+    }
+    div.infoSjefer > ul{
+        font-size: 110%;
     }
 }
