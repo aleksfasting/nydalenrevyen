@@ -47,6 +47,9 @@
     #logo{
         flex-basis: 17.5%;
     }
+    #promo > p{
+        font-size: larger;
+    }
 }
 
 @media screen and (max-width: 650px) {
