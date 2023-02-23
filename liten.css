@@ -13,6 +13,9 @@
     #logo{
         flex-basis: 12.5%;
     }
+    #top > h1{
+        font-size: 35px;
+    }
 }
 
 @media screen and (max-width: 850px) {
@@ -29,6 +32,9 @@
     }
     #logo{
         flex-basis: 15%;
+    }
+    #top > h1{
+        font-size: 30px;
     }
 }
 
@@ -50,6 +56,9 @@
     #promo > p{
         font-size: larger;
     }
+    #top > h1{
+        font-size: 25px;
+    }
 }
 
 @media screen and (max-width: 650px) {
@@ -66,5 +75,8 @@
     }
     #logo{
         flex-basis: 20%;
+    }
+    #top > h1{
+        font-size: 20px;
     }
 }
