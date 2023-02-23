@@ -54,19 +54,31 @@ nav{
 #sjefer{
     display: grid;
     margin: auto;
+    border: red dotted;
+    width: 80%;
 }
 #sjefer > div{
     margin: 20px auto;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    border: dotted blue;
 }
 #sjefer > div > img{
-    width: 60%;
+    width: 50%;
     height: auto;
     justify-self: center;
+    border: green dotted;
 }
 div.infoSjefer{
     align-self: center ;
+    margin: 0 50px;
+}
+div.infoSjefer > h2{
+    font-size: 250%;
+}
+div.infoSjefer > ul{
+    font-size: 150%;
 }
 #hjem{
     display: grid;
