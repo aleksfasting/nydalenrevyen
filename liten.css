@@ -6,15 +6,43 @@
     #nav>ul li a {
         font-size: 150%;
     }
-    /* adjustment */
     #nav{
         flex-basis: 87.5%;
+    }
+    nav{
+        height: 85px;
     }
     #logo{
         flex-basis: 12.5%;
     }
+    #nav > ul > li > a:hover{
+        animation-name: navanimation;
+        animation-duration: 0.6s;
+        animation-fill-mode: forwards;
+    }
+    @keyframes navanimation{
+        from {color: rgb(177,34,36); font-size: 150%;} 
+        to {color: rgb(217,74,76); font-size: 170%;}
+    }
+    /* hjem */
     #top > h1{
         font-size: 35px;
+    }
+    #soMe{
+        height: 110px;
+    }
+    #soMe > a > img{
+        height: 66px;
+    }
+    #soMe > a{
+        margin: 0px 60px;
+    }
+    /* footer */
+    #sponsorer > a > img{
+        height: 45px;
+    }
+    #sponsorer > a{
+        margin: 9px 22.5px;
     }
 }
 
@@ -26,21 +54,50 @@
     #nav > ul > li > a {
         font-size: 130%;
     }
-    /* adjustment */
     #nav{
         flex-basis: 85%;
+    }
+    nav{
+        height: 80px;
     }
     #logo{
         flex-basis: 15%;
     }
+    #nav > ul > li > a:hover{
+        animation-name: navanimation;
+        animation-duration: 0.6s;
+        animation-fill-mode: forwards;
+    }
+    @keyframes navanimation{
+        from {color: rgb(177,34,36); font-size: 130%;} 
+        to {color: rgb(217,74,76); font-size: 150%;}
+    }
+    /* hjem */
     #top > h1{
         font-size: 30px;
     }
+    /* sjefer */
     div.infoSjefer > h2{
         font-size: 210%;
     }
     div.infoSjefer > ul{
         font-size: 130%;
+    }
+    #soMe{
+        height: 95px;
+    }
+    #soMe > a > img{
+        height: 57px;
+    }
+    #soMe > a{
+        margin: 0px 50px;
+    }
+    /* footer */
+    #sponsorer > a > img{
+        height: 40px;
+    }
+    #sponsorer > a{
+        margin: 8px 20px;
     }
 }
 
@@ -52,18 +109,46 @@
     #nav > ul > li > a {
         font-size: 115%;
     }
-    /* adjustment */
     #nav{
         flex-basis: 82.5%;
+    }
+    nav{
+        height: 75px;
     }
     #logo{
         flex-basis: 17.5%;
     }
+    #nav > ul > li > a:hover{
+        animation-name: navanimation;
+        animation-duration: 0.6s;
+        animation-fill-mode: forwards;
+    }
+    @keyframes navanimation{
+        from {color: rgb(177,34,36); font-size: 115%;} 
+        to {color: rgb(217,74,76); font-size: 135%;}
+    }
+    /* hjem */
     #promo > p{
         font-size: larger;
     }
     #top > h1{
         font-size: 25px;
+    }
+    #soMe{
+        height: 80px;
+    }
+    #soMe > a > img{
+        height: 48px;
+    }
+    #soMe > a{
+        margin: 0px 40px;
+    }
+    /* footer */
+    #sponsorer > a > img{
+        height: 35px;
+    }
+    #sponsorer > a{
+        margin: 7px 17.5px;
     }
 }
 
@@ -75,20 +160,49 @@
     #nav > ul > li > a {
         font-size: 100%;
     }
-    /* adjustment */
     #nav{
         flex-basis: 80%;
     }
     #logo{
         flex-basis: 20%;
     }
+    nav{
+        height: 70px;
+    }
+    #nav > ul > li > a:hover{
+        animation-name: navanimation;
+        animation-duration: 0.6s;
+        animation-fill-mode: forwards;
+    }
+    @keyframes navanimation{
+        from {color: rgb(177,34,36); font-size: 100%;} 
+        to {color: rgb(217,74,76); font-size: 115%;}
+    }
+    /* hjem */
     #top > h1{
         font-size: 20px;
     }
+    /* sjefer */
     div.infoSjefer > h2{
         font-size: 180%;
     }
     div.infoSjefer > ul{
         font-size: 110%;
+    }
+    #soMe{
+        height: 65px;
+    }
+    #soMe > a > img{
+        height: 39px;
+    }
+    #soMe > a{
+        margin: 0px 30px;
+    }
+    /* footer */
+    #sponsorer > a > img{
+        height: 30px;
+    }
+    #sponsorer > a{
+        margin: 6px 15px;
     }
 }
