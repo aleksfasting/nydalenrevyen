@@ -215,21 +215,24 @@ div.infoSkuespiller{
 }
 /*billetter*/
 #buttonbilett {
-    width: 100%;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin: auto;
+    width: 200px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center; 
 }
+#buttonbilett > a{
+    width: 100%;
+}
 #ticketbutton {
     align-self: center;
-    margin: 0px 60px;
-    background-color: red;
+    background-color: rgb(177,34,36);
     border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
 }
 #buttontext {
-    color: white;
+    color: whitesmoke;
     margin: 20px;
     font-size: large;
     font-weight: bold;
