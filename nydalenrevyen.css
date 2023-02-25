@@ -197,6 +197,43 @@ div.infoSjefer > ul{
     margin: 10px 15px;
     font-weight: bold;
 }
+/*Skuespillere*/
+#skuespillere{
+    margin: 40px;
+}
+#skuespillere > div{
+    margin: 80px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+#skuespillere > div > img{
+    width: 25%;
+}
+div.infoSkuespiller{
+    margin: 30px;
+    align-self: center;
+}
+/*billetter*/
+#buttonbilett {
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+#ticketbutton {
+    align-self: center;
+    margin: 0px 60px;
+    background-color: red;
+    border-radius: 5px;
+}
+#buttontext {
+    color: white;
+    margin: 20px;
+    font-size: large;
+    font-weight: bold;
+}
 /*footer*/
 footer{
     background-color: rgb(177,34,36);
