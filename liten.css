@@ -92,6 +92,13 @@
     #soMe > a{
         margin: 0px 50px;
     }
+    /* skuespillere */
+    div.infoSkuespiller > h1{
+        font-size: 150%;
+    }
+    div.infoSkuespiller > h3{
+        font-size: 97.5%;
+    }
     /* footer */
     #sponsorer > a > img{
         height: 40px;
@@ -197,6 +204,13 @@
     }
     #soMe > a{
         margin: 0px 30px;
+    }
+    /* skuespillere */
+    div.infoSkuespiller > h1{
+        font-size: 105%;
+    }
+    div.infoSkuespiller > h3{
+        font-size: 68.25%;
     }
     /* footer */
     #sponsorer > a > img{

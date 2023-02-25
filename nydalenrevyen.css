@@ -207,11 +207,17 @@ div.infoSjefer > ul{
     flex-wrap: wrap;
 }
 #skuespillere > div > img{
-    width: 25%;
+    width: 35%;
 }
 div.infoSkuespiller{
     margin: 30px;
     align-self: center;
+}
+div.infoSkuespiller > h1{
+    font-size: 200%;
+}
+div.infoSkuespiller > h3{
+    font-size: 130%;
 }
 /*billetter*/
 #buttonbilett {
